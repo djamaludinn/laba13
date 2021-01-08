@@ -76,9 +76,9 @@ class Staff:
 
         return '\n'.join(table)
 
-    def select(self, period):
+    def select(self, shop):
         parts = command.split(' ', maxsplit=1)
-        period = str(parts[1])
+        shop = str(parts[1])
         count = 0
         result = []
         for markets in self.market:
