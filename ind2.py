@@ -156,7 +156,7 @@ if __name__ == '__main__':
             shop = input("Название магазина? ")
             price = float(input("Стоимость товара в руб.? "))
 
-            # Добавить работника.
+            # Добавить.
             staff.add(shop, product, price)
 
         elif command == 'list':
